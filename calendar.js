@@ -213,12 +213,3 @@ const populateCalendar = () => {
       ? "Bobs Month"
       : ""
 }
-
-// the following shit js was written by enbyv
-function openFullRules() {
-  console.log("peekaboo");
-  document.querySelectorAll(".rules-hidden").forEach((item) => {
-    item.classList.toggle("open");
-  })
-  document.getElementById("rules").classList.toggle("open");
-}
