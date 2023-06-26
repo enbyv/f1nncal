@@ -119,6 +119,61 @@ header {
   text-decoration: underline;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-card {
+  flex: 1;
+  border-radius: 8px;
+  padding: 30px 10px 30px 10px;
+  margin: 0 25px 0 25px;
+  color: white;
+  font-weight: 300;
+  height: 100%!important;
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.footer #icon {
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.footer h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.footer h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.footer h5 {
+  margin-top: 5px;
+}
+
 .toggle-full {
   font-size: 18px;
   font-weight: 300;
